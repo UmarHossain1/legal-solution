@@ -48,7 +48,7 @@
   </head>
   <body class="font-poppins">
     <!-- Navbar -->
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto px-2">
       <nav>
         <div class="navbar">
           <div class="navbar-start">
@@ -77,11 +77,11 @@
                 <li><a>Services</a></li>
                 <li><a>Cases</a></li>
                 <li><a>Blog</a></li>
-                <li><a>Contact Us</a></li>
+                <li class="text-[#707070]"><a>Contact Us </a></li>
+                <input type="checkbox" value="synthwave" class="toggle theme-controller" />
               </ul>
             </div>
-            <img class="w-10" src="./images/business.png" alt="" />
-            <a class="font-bold text-2xl ml-4">Justice</a>
+            <img class="cursor-pointer" src="./images/logo2.png" alt="" />
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -90,10 +90,11 @@
               <li class="text-[#707070]"><a>Cases</a></li>
               <li class="text-[#707070]"><a>Blog</a></li>
               <li class="text-[#707070]"><a>Contact Us </a></li>
+              <input type="checkbox" value="synthwave" class="toggle theme-controller" />
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-[#B68C5A] text-white rounded-lg"
+            <a class="btn bg-[#B68C5A] text-white rounded-lg "
               >Free Consultation</a
             >
           </div>
@@ -310,47 +311,113 @@
         </div>
       </section>
       <!-- FAQ Section -->
-       <section class="mt-24 mb-24 text-center space-y-4 mx-4">
-        <h2 class="text-4xl font-semibold">
-          What Our Frequently Asked Any Questions
+      <section class="mt-24">
+        <h2 class="text-5xl font-bold text-center mb-12">
+          Frequently Asked Any Questions
         </h2>
-        <p class="text-[#707070]">
-          There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.
-        </p>
-        <!-- FAQ -->
+        <p class="text-[#707070] text-center mx-4">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
         <div class="hero">
-          <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="hero-content flex-col lg:flex-row gap-12">
             <img
               src="./images/faq.png"
-              class="max-w-md rounded-lg"
+              class="w-full rounded-lg"
             />
-            <div class="space-y-8">
-              <div class="collapse collapse-plus bg-base-200 border border-base-300">
-                <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title font-semibold">Are application fee waivers available?</div>
-                <div class="collapse-content text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour, . </div>
+            <div class="space-y-5">
+              <div
+                class="collapse collapse-arrow bg-base-200 border border-blue-100"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title font-semibold">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . 
+                </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 border border-base-300">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title font-semibold">Are application fee waivers available?</div>
-                <div class="collapse-content text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour, .</div>
+              <div
+                class="collapse collapse-arrow bg-base-200 border border-blue-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . 
+                </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 border border-base-300">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title font-semibold">Are application fee waivers available?</div>
-                <div class="collapse-content text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour, .</div>
+              <div
+                class="collapse collapse-arrow bg-base-200 border border-blue-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . 
+                </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 border border-base-300">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title font-semibold">Are application fee waivers available?</div>
-                <div class="collapse-content text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour, .</div>
+              <div
+                class="collapse collapse-arrow bg-base-200 border border-blue-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . 
+              </div>
+            </div>
+              <div
+                class="collapse collapse-arrow bg-base-200 border border-base-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  Are application fee waivers available?
+                </div>
+                <div class="collapse-content text-sm">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . 
               </div>
             </div>
           </div>
         </div>
-
-       </section>
-
+      </section>
     </main>
+    <!-- Footer Section -->
+    <footer class="text-[#CFCFCF] footer sm:footer-horizontal bg-black text-base-content mt-24 p-12">
+      <nav class="space-y-2">
+        <img src="./images/logo.png" alt="">
+        <p>There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have suffered <br> alteration in some form, <br> by injected humour.</p>
+      </nav>
+      <nav>
+        <h6 class="footer-title text-white">UseFull  Link</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us </a>
+      </nav>
+      <nav>
+        <h6 class="footer-title text-white">Contact Now</h6>
+        <h6>555 4th 5t NW, Washington <br>
+          DC 20530, United States</h6>
+        <p>+88 01750 000 000 <br>
+          +88 01750 000 000</p>
+        <p>info@gmail.com <br>
+          info@gmail.com</p>
+      </nav>
+      <form>
+        <h6 class="footer-title text-white">Subscribe</h6>
+        <p>Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
+        <fieldset class="w-80">
+          <label>Enter your email address</label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item" />
+            <button class="btn bg-[#B68C5A]"><i class="fa-solid fa-arrow-up-right-from-square text-white"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
